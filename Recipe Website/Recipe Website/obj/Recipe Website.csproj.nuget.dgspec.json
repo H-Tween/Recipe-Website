@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spgaw\\source\\repos\\Recipe Website\\Recipe Website\\Recipe Website.csproj": {}
+    "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\Recipe Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spgaw\\source\\repos\\Recipe Website\\Recipe Website\\Recipe Website.csproj": {
+    "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\Recipe Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spgaw\\source\\repos\\Recipe Website\\Recipe Website\\Recipe Website.csproj",
+        "projectUniqueName": "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\Recipe Website.csproj",
         "projectName": "Recipe Website",
-        "projectPath": "C:\\Users\\spgaw\\source\\repos\\Recipe Website\\Recipe Website\\Recipe Website.csproj",
+        "projectPath": "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\Recipe Website.csproj",
         "packagesPath": "C:\\Users\\spgaw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spgaw\\source\\repos\\Recipe Website\\Recipe Website\\obj\\",
+        "outputPath": "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spgaw\\AppData\\Roaming\\NuGet\\NuGet.Config",

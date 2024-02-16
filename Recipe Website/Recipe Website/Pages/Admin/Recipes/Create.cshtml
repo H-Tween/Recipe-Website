@@ -1,0 +1,126 @@
+﻿@page
+@model Recipe_Website.Pages.Admin.Recipes.CreateModel
+@{
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">New Recipe</h2>
+
+        @if (Model.errorMessage.Length > 0)
+        {
+            <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+                <strong>@Model.errorMessage</strong>
+                <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+            </div>
+        }
+
+        else if (Model.successMessage.Length > 0)
+        {
+            <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                <strong>@Model.successMessage</strong>
+                <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+            </div>
+        }
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Title</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="RecipeDto.Title">
+                    <span asp-validationm-for="RecipeDto.Title" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Description</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" asp-for="RecipeDto.Description"></textarea>
+                    <span asp-validation-for="RecipeDto.Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Ingredients</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" asp-for="RecipeDto.Ingredients"></textarea>
+                    <span asp-validation-for="RecipeDto.Ingredients" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Instructions</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" asp-for="RecipeDto.Instructions"></textarea>
+                    <span asp-validation-for="RecipeDto.Instructions" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Category</label>
+                <div class="col-sm-8">
+                    <select class="form-select" asp-for="RecipeDto.Category">
+                        <option value='Breakfast'>Breakfast</option>
+                        <option value='Brunch'>Brunch</option>
+                        <option value='Lunch'>Lunch</option>
+                        <option value='Dinner'>Dinner</option>
+                        <option value='Pancakes'>Pancakes</option>
+                        <option value='Sandwiches, Wraps and Rolls'>Sandwiches, Wraps and Rolls</option>
+                        <option value='Appetisers'>Appetisers</option>
+                        <option value='Soups'>Soups</option>
+                        <option value='Salads'>Salads</option>
+                        <option value='Sides'>Sides</option>
+                        <option value='Snacks'>Snacks</option>
+                        <option value='Burgers'>Burgers</option>
+                        <option value='Pizza'>Pizza</option>
+                        <option value='Pies'>Pies</option>
+                        <option value='Mince'>Mince</option>
+                        <option value='Lamb'>Lamb</option>
+                        <option value='Chicken'>Chicken</option>
+                        <option value='Seafood'>Seafood</option>
+                        <option value='Rice'>Rice</option>
+                        <option value='Noodles'>Noodles</option>
+                        <option value='Pasta'>Pasta</option>
+                        <option value='Sausages'>Sausages</option>
+                        <option value='Beef'>Beef</option>
+                        <option value='Stir Fry'>Stir Fry</option>
+                        <option value='Pork'>Pork</option>
+                        <option value='Turkey'>Turkey</option>
+                        <option value='Duck'>Duck</option>
+                        <option value='Condiments and Spreads'>Condiments and Spreads</option>
+                        <option value='Sauces'>Sauces</option>
+                        <option value='Bread'>Bread</option>
+                        <option value='Slices'>Slices</option>
+                        <option value='Biscuits and Cookies'>Biscuits and Cookies</option>
+                        <option value='Baking'>Baking</option>
+                        <option value='Desserts'>Desserts</option>
+                        <option value='Cocktails'>Cocktails</option>
+                        <option value='Smoothies and Shakes'>Smoothies and Shakes</option>
+                        <option value='Vegetarian'>Vegetarian</option>
+                        <option value='Poultry'>Poultry</option>
+                        <option value='Meat'>Meat</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Image</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="RecipeDto.ImageUrl">
+                    <span asp-validation-for="RecipeDto.ImageUrl" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-primary" href="/Admin/Recipes/Index" role="button">Cancel</a>
+                </div>
+            </div>
+        
+        </form>
+    </div>
+
+</div>
