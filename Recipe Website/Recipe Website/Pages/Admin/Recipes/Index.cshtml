@@ -1,0 +1,51 @@
+﻿@page
+@model Recipe_Website.Pages.Admin.Recipes.IndexModel
+@{
+}
+
+<h2 class="text-center mb-5"> List of Recipes</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <a class='btn btn-primary' href='/Admin/Recipes/Create'>New Recipe</a>
+    </div>
+
+    <div class="col">
+
+    </div>
+</div>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Ingredients</th>
+        <th>Instructions</th>
+        <th>Category</th>
+        <th>ImageUrl</th>
+        <th>Created at</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach(var recipe in Model.Recipes)
+    {
+        <tr>
+            <td>@recipe.Id</td>
+            <td>@recipe.Title</td>
+            <td>@recipe.Description</td>
+            <td>@recipe.Ingredients</td>
+            <td>@recipe.Instructions</td>
+            <td>@recipe.Category</td>
+            <td><img src="/RecipeImages/@recipe.ImageUrl" width="100"/></td>
+            <td>@recipe.CreatedAt.ToString("MM/dd/yyyy")</td>
+            <td style="white-space:nowrap">
+                <a class="btn btn-primary btn-sm" href="/Admin/Recipes/Edit?id=@recipe.Id">Edit</a>
+                <a class="btn btn-danger btn-sm" href="/Admin/Recipes/Delete?id=@recipe.Id">Delete</a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

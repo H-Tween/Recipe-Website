@@ -1,0 +1,75 @@
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\appsettings.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Recipe Website.staticwebassets.runtime.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Recipe Website.exe
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Recipe Website.deps.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Recipe Website.runtimeconfig.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Recipe Website.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Recipe Website.pdb
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Humanizer.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.csproj.AssemblyReference.cache
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.AssemblyInfoInputs.cache
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.AssemblyInfo.cs
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.csproj.CoreCompileInputs.cache
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.RazorAssemblyInfo.cache
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.RazorAssemblyInfo.cs
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\staticwebassets\msbuild.Recipe Website.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\staticwebassets\msbuild.build.Recipe Website.props
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Recipe Website.props
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Recipe Website.props
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\scopedcss\bundle\Recipe Website.styles.css
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\scopedcss\projectbundle\Recipe Website.bundle.scp.css
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.csproj.CopyComplete
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\refint\Recipe Website.dll
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.pdb
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\Recipe Website.genruntimeconfig.cache
+C:\Users\spgaw\source\repos\Recipe Website\Recipe Website\obj\Debug\net7.0\ref\Recipe Website.dll
