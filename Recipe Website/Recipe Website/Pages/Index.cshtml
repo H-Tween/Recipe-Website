@@ -1,10 +1,19 @@
 ﻿@page
-@model Recipe_Website.Pages.Admin.Recipes.IndexModel
+@model Recipe_Website.Pages.IndexModel;
 @{
     ViewData["Title"] = "Home page";
 }
 
 <h2 class="text-center mb-5"> Recipes</h2>
+
+<div class="row mb-5">
+    <div class="homeSearch">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" name="search" value="@Model.search" placeholder="Search by Title or Category" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+</div>
 
 <div class="recipes">
     @foreach (var recipe in Model.Recipes)
@@ -19,3 +28,22 @@
         </a>
     }
 </div>
+
+<nav>
+    <ul class="pagination mt-10 justify-content-center">
+        <li class="page-item @(Model.pageIndex<=1?"disabled":"")">
+            <a class="page-link" href="?pageIndex=@(Model.pageIndex - 1)" aria-disabled="true">Previous</a>
+        </li>
+        @for (int i = 1; i <= Model.totalPages; i++)
+        {
+            string active = "";
+            if (i == Model.pageIndex) active = "active";
+            <li class="page-item @active" aria-current="page">
+                <a class="page-link" href="?pageIndex=@(i)">@i</a>
+            </li>
+        }
+        <li class="page-item @(Model.pageIndex==Model.totalPages?"disabled":"")">
+            <a class="page-link" href="?pageIndex=@(Model.pageIndex + 1)" aria-disabled="true">Next</a>
+        </li>
+    </ul>
+</nav>

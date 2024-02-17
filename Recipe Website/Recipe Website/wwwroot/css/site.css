@@ -94,5 +94,10 @@ content .instructions {
     margin-top: 50px;
 }
 
+.mt-10 {
+    margin-top: 20px;
+}
 
-
+.homeSearch {
+    padding: 0 400px;
+}

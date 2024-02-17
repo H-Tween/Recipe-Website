@@ -14,7 +14,7 @@ namespace Recipe_Website.Pages.Admin.Recipes
         // pagination
         public int pageIndex = 1;
         public int totalPages = 0;
-        private readonly int pageSize = 9;
+        private readonly int pageSize = 5;
 
         // search
         public string search = "";
@@ -118,7 +118,7 @@ namespace Recipe_Website.Pages.Admin.Recipes
             query = query.Skip((this.pageIndex - 1) * pageSize).Take(pageSize);
 
 
-            Recipes =query.ToList();
+            Recipes = query.ToList();
 
         }
     }
