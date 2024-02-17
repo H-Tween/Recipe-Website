@@ -4,6 +4,7 @@ using Recipe_Website.Models;
 using Recipe_Website.Services;
 using System.Net.Http.Headers;
 using System.Reflection;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Recipe_Website.Pages.Admin.Recipes
 {

@@ -1,10 +1,21 @@
 ﻿@page
-@model IndexModel
+@model Recipe_Website.Pages.Admin.Recipes.IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h2 class="text-center mb-5"> Recipes</h2>
+
+<div class="recipes">
+    @foreach (var recipe in Model.Recipes)
+    {
+        <a href="/RecipeItem?id=@recipe.Id" class="recipe">
+            <div class="image" style="background-image:url(/RecipeImages/@recipe.ImageUrl)">
+            </div>
+            <div class="info">
+                <h2>@recipe.Title</h2>
+                <p>@recipe.Description</p>
+            </div>
+        </a>
+    }
 </div>

@@ -1,0 +1,26 @@
+﻿@page
+@model Recipe_Website.Pages.RecipeItemModel
+@{
+}
+
+<div class="wrapper">
+    <sidebar>
+        <img src="/RecipeImages/@Model.Recipe.ImageUrl" />
+        <div class="ingredients">
+            <ul>
+                @foreach (var ingredient in Model.Recipe.Ingredients.Split(','))
+                {
+                    <li>@ingredient</li>
+                }
+            </ul>
+        </div>
+    </sidebar>
+
+    <content>
+        <h1>@Model.Recipe.Title</h1>
+        <p class="description">@Model.Recipe.Description</p>
+        <div class="instructions">
+            <p>@Html.Raw(@Model.Recipe.Instructions.Replace(Environment.NewLine, "<br/>"))</p>
+        </div>
+    </content>
+</div>
