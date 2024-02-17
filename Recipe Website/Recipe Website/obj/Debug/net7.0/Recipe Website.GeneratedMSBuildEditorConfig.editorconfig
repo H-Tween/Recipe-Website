@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVjaXBlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/spgaw/Desktop/EVERYTHING/Uni Coursework/Year 2/Web Applications/Recipe-Website/Recipe Website/Recipe Website/Pages/Admin/Recipes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVjaXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/spgaw/Desktop/EVERYTHING/Uni Coursework/Year 2/Web Applications/Recipe-Website/Recipe Website/Recipe Website/Pages/Admin/Recipes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVjaXBlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/spgaw/Desktop/EVERYTHING/Uni Coursework/Year 2/Web Applications/Recipe-Website/Recipe Website/Recipe Website/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/spgaw/Desktop/EVERYTHING/Uni Coursework/Year 2/Web Applications/Recipe-Website/Recipe Website/Recipe Website/Pages/RecipeItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjaXBlSXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/spgaw/Desktop/EVERYTHING/Uni Coursework/Year 2/Web Applications/Recipe-Website/Recipe Website/Recipe Website/Pages/Shared/_ValidationScriptsPartial.cshtml]

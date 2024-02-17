@@ -19,4 +19,80 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #f1f1f1;
 }
+
+.recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px
+}
+
+.recipes .recipe {
+    border-radius: 5px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 10px #ccc;
+    transition: transform .2s; /* Animation */
+}
+
+.recipes .recipe:hover {
+    color: purple;
+    transform: scale(1.05);
+}
+
+.recipes .recipe .image {
+    margin: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.recipes .recipe img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.recipes .recipe .info {
+    margin: 15px;
+}
+
+.recipes .recipe h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1em;
+
+}
+
+
+.wrapper {
+    display: flex;
+    column-gap: 15px;
+}
+
+.wrapper sidebar {
+    flex: 0 0 300px;
+
+}
+
+.wrapper content .description {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+sidebar .ingredients ul li {
+    margin: 10px 0px;
+
+}
+
+content .instructions {
+    margin-top: 50px;
+}
+
+
+

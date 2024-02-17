@@ -1,11 +1,11 @@
 ﻿@page
-@model Recipe_Website.Pages.Admin.Recipes.CreateModel
+@model Recipe_Website.Pages.Admin.Recipes.EditModel
 @{
 }
 
 <div class="row">
     <div class="col-md-8 mx-auto rounded border p-3">
-        <h2 class="text-center mb-5">New Recipe</h2>
+        <h2 class="text-center mb-5">Edit Recipe</h2>
 
         @if (Model.errorMessage.Length > 0)
         {
@@ -25,17 +25,24 @@
 
         <form method="post" enctype="multipart/form-data">
             <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">ID</label>
+                <div class="col-sm-8">
+                    <input readonly class="form-control" value="@Model.Recipe.Id">
+                </div>
+            </div>
+
+            <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Title</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="RecipeDto.Title">
                     <span asp-validation-for="RecipeDto.Title" class="text-danger"></span>
                 </div>
             </div>
-            
+
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Description</label>
                 <div class="col-sm-8">
-                    <textarea class="form-control" rows="10" asp-for="RecipeDto.Description"></textarea>
+                    <textarea class="form-control" asp-for="RecipeDto.Description"></textarea>
                     <span asp-validation-for="RecipeDto.Description" class="text-danger"></span>
                 </div>
             </div>
@@ -51,7 +58,7 @@
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Instructions</label>
                 <div class="col-sm-8">
-                    <textarea class="form-control" asp-for="RecipeDto.Instructions"></textarea>
+                    <textarea class="form-control" rows="10" asp-for="RecipeDto.Instructions"></textarea>
                     <span asp-validation-for="RecipeDto.Instructions" class="text-danger"></span>
                 </div>
             </div>
@@ -104,10 +111,24 @@
             </div>
 
             <div class="row mb-3">
+                <label class="col-sm-4 col-form-label"></label>
+                <div class="col-sm-8">
+                    <img src="/RecipeImages/@Model.Recipe.ImageUrl" width="150" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Image</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="RecipeDto.ImageUrl">
                     <span asp-validation-for="RecipeDto.ImageUrl" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Created At</label>
+                <div class="col-sm-8">
+                    <input readonly class="form-control-plaintext" value="@Model.Recipe.CreatedAt.ToString("MM/dd/yyyy")">
                 </div>
             </div>
 
@@ -119,7 +140,7 @@
                     <a class="btn btn-outline-primary" href="/Admin/Recipes/Index" role="button">Cancel</a>
                 </div>
             </div>
-        
+
         </form>
     </div>
 
