@@ -11,20 +11,38 @@
     </div>
 
     <div class="col">
-
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" name="search" value="@Model.search" placeholder="Search by Title or Category" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
     </div>
 </div>
 
+<script>
+    function sortTable(column) {
+        let orderBy = "desc";
+        let currentColumn = "@Model.column";
+        let currentOrder = "@Model.orderBy";
+
+        if (column == currentColumn) {
+            if (currentOrder == "asc") orderBy = "desc";
+            else orderBy = "asc";
+        }
+
+        window.location.href = "?search=@(Model.search)&column=" + column + "&orderBy=" + orderBy;
+    }
+</script>
+
 <table class="table">
     <tr>
-        <th>ID</th>
-        <th>Title</th>
+        <th style="cursor: pointer;" onclick="sortTable('Id')">ID</th>
+        <th style="cursor: pointer;" onclick="sortTable('Title')">Title</th>
         <th>Description</th>
         <th>Ingredients</th>
         <th>Instructions</th>
-        <th>Category</th>
+        <th style="cursor: pointer;" onclick="sortTable('Category')">Category</th>
         <th>ImageUrl</th>
-        <th>Created at</th>
+        <th style="cursor: pointer;" onclick="sortTable('CreatedAt')">Created at</th>
         <th>Action</th>
     </tr>
 
@@ -57,7 +75,7 @@
             string active = "";
             if (i == Model.pageIndex) active = "active";
             <li class="page-item @active" aria-current="page">
-               <a class="page-link" href="?pageIndex=@(i)">@i</a>
+                <a class="page-link" href="?pageIndex=@(i)&search=@(Model.search)&column=@(Model.column)&orderBy=@(Model.orderBy)">@i</a>
            </li> 
         }
     </ul>
