@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q7NRFBhdc2dPFFsWCivsRfNvLNhwW04PVB9zMTwxZgU=",
+  "Hash": "zn6WZleWDwKJFez/AkA5s565Gb4PdU5wgLx40T+mAo0=",
   "Source": "Recipe Website",
   "BasePath": "_content/Recipe Website",
   "Mode": "Default",
@@ -1193,25 +1193,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\wwwroot\\RecipeImages\\20240216221945222.png",
-      "SourceId": "Recipe Website",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\wwwroot\\",
-      "BasePath": "_content/Recipe Website",
-      "RelativePath": "RecipeImages/20240216221945222.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\RecipeImages\\20240216221945222.png"
     },
     {
       "Identity": "C:\\Users\\spgaw\\Desktop\\EVERYTHING\\Uni Coursework\\Year 2\\Web Applications\\Recipe-Website\\Recipe Website\\Recipe Website\\wwwroot\\RecipeImages\\banana_bread.jpg",

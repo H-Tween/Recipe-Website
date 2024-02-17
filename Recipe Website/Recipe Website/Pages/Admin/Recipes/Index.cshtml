@@ -49,3 +49,16 @@
     }
 
 </table>
+
+<nav>
+    <ul class="pagination">
+        @for(int i = 1; i <= Model.totalPages; i++)
+        {
+            string active = "";
+            if (i == Model.pageIndex) active = "active";
+            <li class="page-item @active" aria-current="page">
+               <a class="page-link" href="?pageIndex=@(i)">@i</a>
+           </li> 
+        }
+    </ul>
+</nav>
